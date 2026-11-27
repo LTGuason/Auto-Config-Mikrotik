@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Acceso denegado</title>
+  <style>
+    body { background: #fff; color: #222; font-family: Verdana, Arial, sans-serif; line-height: 1.6; margin: 2rem auto; max-width: 760px; padding: 0 1rem; }
+    h1 { color: #173b63; }
+    .notice { background: #f3f6f9; border-left: 4px solid #d38b00; padding: 1rem; }
+  </style>
+</head>
+<body>
+  <h1>ARMGASA TELECOMUNICACIONES</h1>
+  <h2>Acceso a Internet suspendido</h2>
+  <hr>
+
+  <p>La página solicitada no se pudo mostrar:</p>
+  <p><a href="%U">%U</a></p>
+
+  <section class="notice">
+    <h3>Acceso denegado</h3>
+    <p>El acceso a Internet de este servicio podría estar suspendido por alguno de los siguientes motivos:</p>
+    <ol>
+      <li>Falta de pago de la mensualidad del servicio.</li>
+      <li>La conexión no corresponde a un cliente autorizado.</li>
+      <li>La configuración del equipo podría ser incorrecta.</li>
+      <li>Se están realizando trabajos de mantenimiento en nuestros equipos.</li>
+    </ol>
+  </section>
+
+  <p>Si el motivo es una factura pendiente, comuníquese con nuestro departamento de atención para consultar su saldo y solicitar la reactivación del servicio.</p>
+  <p><strong>Teléfono de contacto:</strong> [agregue aquí su número]</p>
+  <p>Si ya es cliente y considera que se trata de un error, envíenos un mensaje con su nombre completo y una descripción del problema.</p>
+</body>
+</html>
